@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    background-color: #94104b;
+    padding: 50px;
+    font-family: sans-serif;
+}
+
+form {
+    width: 30%;
+    margin: 0 auto;
+    font-family: Helvetica;
+    background-color: #76093a;
+    padding: 50px 100px;
+    border-radius: 5px;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.gen {
+    width: 100%;
+}
+
+.gen label {
+    width: 30%;
+    margin-right: 10px;
+    color: white;
+}
+
+.gen select,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea {
+    width: 65%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.gen .col1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.gen .col1 .col11 {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Additional styling can be added as needed */
